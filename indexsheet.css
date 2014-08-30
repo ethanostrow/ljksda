@@ -1,18 +1,46 @@
+#featured{
+	font-family:'Permanent Marker', Ariel;
+	color:white;
+	background-color:black;
+	display:inline-block;
+	white-space:nowrap;
+	clear:none;
+	float:right;
+	margin: 17px 17px 17px 17px;
+	border:none;
+	font-size:0.9em;
+	border-radius: 15px;
+	text-decoration:none;
+}
+a{
+	text-decoration:none;
+	color:white;
+}
+a:hover{
+	color:#98999C;
+}
 #logo{
 	font-family: 'Permanent Marker', Mono;
 	font-size: 2.4em;
 	margin: 20px 20px 20px 20px;
 	display:inline-block;
+	white-space:nowrap;
+	clear:none;
+	float:left;
 }
 #nav{
-	display:inline-block;
+	display:inline;
 	float:right;
 	margin: 20px 20px 20px 20px;
 	font-family:'Poiret One', Ariel;
 	color:#98999C;
+	display:inline-block;
+	white-space:nowrap;
+	clear:none;
 }
 #nav:hover{
 	color:black;
+	display:inline-block;
 }
 #content{
 	text-align:center
@@ -47,3 +75,28 @@ footer{
 	margin: 20px 0px 0px 0px;
 	text-align:center;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
