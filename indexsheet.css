@@ -1,11 +1,11 @@
 
 	
-}
-#featured{
+
+#aff{
 	font-family:'Permanent Marker', Ariel;
 	color:white;
 	background-color:black;
-	display:inline-block;
+	display:inline;
 	white-space:nowrap;
 	clear:none;
 	float:right;
@@ -70,6 +70,7 @@ footer{
 	position:absolute;
 	bottom:0;
 	left:0;
+	position:fixed;
 }
 #footerText{
 	color:white;
@@ -77,9 +78,17 @@ footer{
 	font-size:.9em;
 	margin: 20px 0px 0px 0px;
 	text-align:center;
+
 }
+img{
+	height:80px;
+	width:80px;
+	float:center;
+}
+span{
+	color:#333333;
 
-
+}
 
 
 
