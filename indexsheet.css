@@ -3,8 +3,8 @@
 
 #aff{
 	font-family:'Permanent Marker', Ariel;
-	color:white;
-	background-color:black;
+	color:#488EF7;
+	background-color:white;
 	display:inline;
 	white-space:nowrap;
 	clear:none;
@@ -14,6 +14,7 @@
 	font-size:0.9em;
 	border-radius: 15px;
 	text-decoration:none;
+	border-color:#488EF7;
 }
 a{
 	text-decoration:none;
