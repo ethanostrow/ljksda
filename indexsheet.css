@@ -1,6 +1,21 @@
-
-	
-
+html { 
+  background-color:#2E8FC6; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+a {
+    text-decoration: none;
+    display:inline;
+	float:right;
+	margin: 20px 20px 20px 20px;
+	font-family:'Raleway', Ariel;
+	color:#333333;
+	display:inline-block;
+	white-space:nowrap;
+	clear:none;
+}
 #aff{
 	font-family:'Permanent Marker', Ariel;
 	color:#488EF7;
@@ -16,13 +31,8 @@
 	text-decoration:none;
 	border-color:#488EF7;
 }
-a{
-	text-decoration:none;
-	color:white;
-}
-a:hover{
-	color:#98999C;
-}
+
+
 #logo{
 	font-family: 'Permanent Marker', Mono;
 	font-size: 2.4em;
@@ -37,7 +47,7 @@ a:hover{
 	float:right;
 	margin: 20px 20px 20px 20px;
 	font-family:'Poiret One', Ariel;
-	color:#98999C;
+	color:#333333;
 	display:inline-block;
 	white-space:nowrap;
 	clear:none;
@@ -90,7 +100,6 @@ span{
 	color:#333333;
 
 }
-
 
 
 
