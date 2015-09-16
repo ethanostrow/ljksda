@@ -1,78 +1,52 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		<!--Site nav stuff-->
+        <meta charset='utf-8'>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
 		<!--FontAwesome fonts (max CDN)-->
         <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
         <!--Google Fonts-->
 		<link href='http://fonts.googleapis.com/css?family=Raleway|Permanent+Marker|Poiret+One|Pacifico|Fredoka+One|Varela+Round' rel='stylesheet' type='text/css'>
-		<!--Link to indexsheet.css-->
-		<link rel="stylesheet" type="text/css" href="style.css">
-		<!--Bing webmaster tools-->
-		<meta name="msvalidate.01" content="655B2FA4A3291702BB280A35AD4E65B0" />
-		<!--Google webmaster tools-->
-		<meta name="google-site-verification" content="kOJVM2JsKsrgs10iORVUdNGLQ75HgGzPPpN4nYn3FtY" />
-        <!--Site nav stuff-->
-        <meta charset='utf-8'>
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="styles.css">
-        <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
-        <script src="script.js"></script>
-        <!--End of Site nav stuff-->
+		<!--CSS-->
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel='stylesheet' media='screen and (max-width: 700px)' href='css/narrow.css' />
+		<link rel='stylesheet' media='screen and (min-width: 701px) and (max-width: 900px)' href='css/medium.css' />
+		<link rel='stylesheet' media='screen and (min-width: 901px)' href='css/wide.css' />
         <title>EthanOstrow</title>
 	</head>
 	<body>
-<script type="text/javascript">
-    window._idl = {};
-    _idl.variant = "modal";
-    (function() {
-        var idl = document.createElement('script');
-        idl.type = 'text/javascript';
-        idl.async = true;
-        idl.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'members.internetdefenseleague.org/include/?url=' + (_idl.url || '') + '&campaign=' + (_idl.campaign || '') + '&variant=' + (_idl.variant || 'modal');
-        document.getElementsByTagName('body')[0].appendChild(idl);
-    })();</script>
         <header>
-				
-				
-<h2 id="logo"><i class="fa fa-github-alt"></i> Ethan O.</h2>
-                <ul></ul>
-				<h4 id="nav"><i class="fa fa-inbox"></i> Contact</h4>
-				<h4 id="nav"><i class="fa fa-usd"></i> Donate</a></h4>
-                <h4 id="nav"><i class="fa fa-th-large"></i> Stuff</h4>
-				<h4 id="nav"><i class="fa fa-home"></i> Home</h4>
-            
-				
+			<nav>
+				<div class="menu">
+					<div class="icon-close">
+						<img src="http://s3.amazonaws.com/codecademy-content/courses/ltp2/img/uber/close.png">
+					</div>
+					<!-- Menu -->
+					<ul>
+						<li><a href="#"><i class="fa fa-home"></i> Home</a></li>
+						<li><a href="#"><i class="fa fa-suitcase"></i> Work</a></li>
+						<li><a href="#"><i class="fa fa-user"></i> Contact</a></li>
+					</ul>
+				</div>
+				<div class="icon-menu">
+					<i class="fa fa-bars"></i>
+					Menu
+				</div>
+				<h2 class="logo"><i class="fa fa-github-alt"></i> Ethan O.</h2>
+			</nav>
 		</header>
-		
-			<br>
-			<br>
-			<br>
-			<br>
-			<br>
-			<br>
-			<br>
-			
-			<br>
-			<br>
-		
-			<!--<h1 id="content">Welcome to the most random, engrosing site you will ever see.</h1>
-        
-			<p id="content">This site is made to showcase design and color contrast. More elements will be added soon.
-                <br> Currently working on making the site responsive (meaning it will look good on any device) and finding more portfolio items to showcase here.
-         <br>
-                
-                
-            <br>
-                
-            <button class="btn-large" id="content">Here's a button</button></p>
-        
-           
-		<footer>
-			<div id="footer">
-				<p id="footerText">Made in a few hours by Ethan Ostrow. Dedicated to Mom, Dad, Rachel, and the Fluff. (Our cats Molly and Coal.)</p>
+		<main>
+			<div class="headline">
+				<h1>Welcome to the most random, engrosing site you will ever see.</h1>
+				<p>This site is made to showcase design and color contrast. More elements will be added soon.<br>Currently working on making the site responsive (meaning it will look good on any device) and finding more portfolio items to showcase here.</p>
+				<button class="btn-large">Here's a button</button>
 			</div>
-		</footer>-->
-		<h2 id="content" style="color:white; font-family:'Fredoka One', 'Raleway' mono">Hi there<br>I recently made a lot of local changes to the site on my computer at home. Then it broke. The new stuff should be up here right after I extract the data from the hard drive.<br>-Ethan</h2>
+		</main>
+		<footer>
+				<p class="footer-text">Made by Ethan Ostrow. Dedicated to Mom, Dad, Rachel, and the Fluff. (Our cats Molly and Coal.)</p>
+		</footer>
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    	<script src="app.js"></script>
 	</body>
 </html>
