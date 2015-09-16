@@ -1,133 +1,56 @@
-html { 
-  background-color:#020114; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-a {
-    text-decoration: none;
-    display:inline;
-	float:right;
-	margin: 20px 20px 20px 20px;
-	font-family:'Raleway', Ariel;
-	color:#333333;
-	display:inline-block;
-	white-space:nowrap;
-	clear:none;
-}
-#aff{
-	font-family:'Permanent Marker', Ariel;
-	color:#488EF7;
-	background-color:white;
-	display:inline;
-	white-space:nowrap;
-	clear:none;
-	float:right;
-	margin: 17px 17px 17px 17px;
-	border:none;
-	font-size:0.9em;
-	border-radius: 15px;
-	text-decoration:none;
-	border-color:#488EF7;
-}
 
-
-#logo{
+html{ 
+  	background-color:#FAFFFD; 
+  	background-size: cover;
+}
+.logo{
 	font-family: 'Fredoka One', 'Permanent Marker', Mono;
-	font-size: 2.4em;
-	margin: 20px 20px 20px 20px;
-	display:inline-block;
-	white-space:nowrap;
+	margin-top: 20px;
 	clear:none;
-	float:left;
-    color:#B9BDB6;
-    
+    color:#342E37;
 }
-#nav{
-	display:inline;
-	float:right;
-	margin: 18px 18px 18px 18px;
-	font-family:'Poiret One', Ariel;
-	color:#61728D;
-	display:inline-block;
-	white-space:nowrap;
-	clear:none;
-    transition: all 0.4s ease 0s;
+nav a{
+	font-family:'Raleway', Ariel;
+	color:#342E37;
+	list-style-type: none;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: bold;
 }
-#nav:hover{
-	color:#9DA23A;
-	display:inline-block;
-}
-#content{
-	text-align:center
-}
-
 h1{
 	font-family:'Fredoka One', 'Permanent Marker', Mono;
-    color:#B9BDB6;
+    color:#342E37;
 }
-
 p{
 	font-family:'Raleway', Ariel;
 	font-size:1.1em;
-    color:#B9BDB6;
+    color:#342E37;
 }
 footer{
 	clear:both;
-}
-#footer{
-	height:150px;
-	width:1px;
-	background-color:#00000F;
-	margin:auto;
+	background-color:#FA824C;
 	width:100%;
-	height:80px;
 	position:absolute;
 	bottom:0;
 	left:0;
 }
-#footerText{
+.footer-text{
 	color:white;
-	font-family:'Poiret One', Ariel;
-	font-size:.9em;
-	margin: 20px 0px 0px 0px;
-	text-align:center;
+	font-family:'Raleway', Ariel;
+	margin-top: 35px;
 
 }
-img{
-	height:80px;
-	width:80px;
-	float:center;
-}
-span{
-	color:#333333;
-
-}
-
 .btn-large{
-    background-color: #61728D;
-    font-size:1.6em;
+    background-color: #A2D729;
     border: none;
     text-align: center;
-    color: #333333;
-    font-family: 'Raleway', monospace;
-    width:14%;
-    border-radius: 2px;
+    color: #342E37;
+    font-family: 'Fredoka One', monospace;
     align-self: center;
-    box-shadow: 222px;
     transition: all 0.3s ease 0s;
-    height: 50px;
     
 }
 
-button:hover {
-   background-color: #9DA23A;
-    color:#333333;
-}
-embed{
-    background-color:inherit;
-}
 
 
 
