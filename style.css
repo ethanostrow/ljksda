@@ -43,6 +43,11 @@ h3 {
   border-radius: 200px;
 }
 
+a {
+  color: #E4A228;
+  text-decoration: none;
+}
+
 div h2 {
   position: relative;
   top: 50%;
@@ -89,4 +94,8 @@ div h2 {
   font-size: 50px;
   color: white;
   margin: 15px;
+}
+
+.language-name {
+  font-size: 40px;
 }
