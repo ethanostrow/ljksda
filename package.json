@@ -1,0 +1,8 @@
+{
+  "name": "ethanostrow.github.io",
+  "version": "0.1.0",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-less": "^1.3.0"
+  }
+}
